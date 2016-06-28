@@ -4,10 +4,10 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   text-align: right;
-
 }
 nav{
   text-align: right;
+  opacity: 0.7;
 }
 #qshop{
   float:left;
@@ -19,6 +19,7 @@ nav{
   margin: 0px;
   padding:0px;
   padding-top: 0px;
+  color: black;
 }
 a:visited{
   color:white;
@@ -35,7 +36,7 @@ a{
   background-color: inherit;
   color:white;
   font-size: 30px;
-  border-radius: 6px;
+  border-radius: 12px;
   border: 2px solid #e7e7e7;
 
 }
@@ -46,7 +47,6 @@ a{
 }
 #Learnmore{
   padding-top:120px;
-
 }
 #about{
   margin:0px;
@@ -56,47 +56,54 @@ a{
   padding: 20px;
   background-color: #58ACFA;
 }
-.button2{
-  margin-left: 100px;
-  margin-right: 100px;
+.button1{
   border-radius: 60%;
   background-color: inherit;
   color:white;
   font-size: 60px;
-  border-radius: 40px;
+  border-radius: 200px;
   border: 2px solid #e7e7e7;
 }
-.button3{
-  margin-right: 100px;
-  border-radius: 60%;
-  background-color: inherit;
-  color:white;
-  font-size: 60px;
-  border-radius: 40px;
-  border: 2px solid #e7e7e7;
-}
-.button4{
 
-  margin-right: 100px;
-  border-radius: 50px;
-  background-color: inherit;
-  color:white;
-  font-size: 60px;
-  border-radius: 40px;
-  border: 2px solid #e7e7e7;
-}
-.button2:hover{
+.button1:hover{
   box-shadow: 0 18px 20px 0 rgba(0,0,0,0.24), 0 20px 60px 0 rgba(0,0,0,0.19);
   color:LightCoral;
   background-color: inherit;
 }
-.button3:hover{
-  box-shadow: 0 18px 20px 0 rgba(0,0,0,0.24), 0 20px 60px 0 rgba(0,0,0,0.19);
-  color:LightCoral;
-  background-color: inherit;
+
+#about2{
+  margin:0px;
+  padding: 20px;
+  background-color: #BE81F7;
 }
-.button4:hover{
-  box-shadow: 0 18px 20px 0 rgba(0,0,0,0.24), 0 20px 60px 0 rgba(0,0,0,0.19);
-  color:LightCoral;
-  background-color: inherit;
+#footerSection{
+  margin: 0px;
+  padding: 5px;
+  background-color: #58ACFA;
+}
+#sectionImg{
+  margin:0px;
+  padding: 20px;
+  background-color: #D8D8D8;
+}
+.icon-wrapper{
+  width:100px;
+  height: 100px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+.icon-wrapper img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+.image-wrapper img{
+  width: 100%;
+  margin-bottom: 30px;
 }
