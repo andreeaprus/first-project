@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Hi Summer Intership</title>
+  <link rel="stylesheet" type="text/css" href="../../assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="product.css">
+  <script src="../../assets/jquery.js"></script>
+  <script src="../../assets/bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body id = "top">
+
+  <section>
+    <header id="header">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-target="#myNavbar" data-toggle="collapse"
+              class="btn btn-default btn-lg navbar-toggle">
+              <span class ="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            </button>
+            <a id="qshop" href="../../index.html" class="navbar-brand">QShop</a>
+          </div>
+          <div id="myNavbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://github.com"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="../../about/about.html">About</a></li>
+              <li><a href="../../contact/contact.html">Contact</a></li>
+              <li><a href="../../login/login.html">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </section>
+
+
+  <section id="carouselProd">
+    <div class="container-prod">
+      <div class="row" align="left">
+
+        <div class="col-sm-6 col-md-6">
+
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="../../assets/products/product-1.jpg">
+              </div>
+
+              <div class="item">
+                <img src="../../assets/products/product-2.jpg">
+              </div>
+
+              <div class="item">
+                <img src="../../assets/products/product-3.jpg">
+              </div>
+
+              <div class="item">
+                <img src="../../assets/products/product-4.jpg">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="col-sm-6 col-md-6">
+          <h1> Awesome product</h1>
+          <h5>1 review</h5>
+          <h3> $22</h3>
+          <p align="justify"> Universe:<br>
+              1.  the whole body of things and phenomena observed or postulated :  cosmos: as a :  a systematic whole held to arise by and persist
+              through the direct intervention of divine power b :  the world of human experience c (1) :
+              the entire celestial cosmos (2) :  milky way galaxy (3) :  an aggregate of stars comparable to the Milky Way galaxy
+              <br>2.  a distinct field or province of thought or reality that forms a closed system or self-inclusive and independent organization
+              <br>3. population
+              <br>4. a set that contains all elements relevant to a particular discussion or problem
+              <br>5. a great number or quantity a large enough universe of stocks to choose from - G. B. Clairmont
+          </p>
+          <div class="col-sm-6 col-md-6" id="buttons" data-role="controlgroup" data-type="horizontal">
+            <a id="minus" data-role="button">-</a>
+            <a id="number" data-role="button">1</a>
+            <a id="plus" data-role="button">+</a>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <button id="cart" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to cart
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <div id="tabs" class="row" align="center">
+        <div class="container-tabs">
+
+          <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a data-toggle="tab" href="#description">Description</a></li>
+            <li><a data-toggle="tab" href="#specifications">Specifications</a></li>
+            <li><a data-toggle="tab" href="#reviews">Reviews</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="description" class="tab-pane fade in active">
+              <h4 align="justify">
+              Some content some content some content some content some content some content some content
+              some content some content some content some content some content some content some content
+              some content some content some content some content some content some content some content
+              some content some content some content some content some content some content some content
+              some content some content some content some content some content some content
+              some content some content some content some content some content some content
+              </h4>
+            </div>
+            <div id="specifications" class="tab-pane fade">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td id="text">Size</td>
+                    <td>20'X30'</td>
+                  </tr>
+                  <tr>
+                    <td id="text">Colors</td>
+                    <td>Red, Blue</td>
+                  </tr>
+                  <tr>
+                    <td id="text">Material</td>
+                    <td>100% cotton</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="reviews" class="tab-pane fade">
+              <h3>1 active review</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

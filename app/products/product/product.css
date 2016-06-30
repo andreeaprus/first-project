@@ -1,0 +1,80 @@
+nav{
+  text-align: right;
+  opacity: 0.8;
+}
+#qshop{
+  float:left;
+}
+#top{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding:0px;
+  padding-top: 0px;
+  color: black;
+}
+#carouselProd{
+  padding-top: 10px;
+  margin:100px;
+}
+.item img{
+  width:100%;
+}
+.item img:hover{
+  opacity:0.8;
+}
+#buttons{
+  padding-top: 20px;
+}
+#minus,#plus{
+  background-color: #ff5c33;
+  color:white;
+  padding:5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 7%;
+}
+#number{
+  color:black;
+  padding:5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:0px;
+  background-color: #F2F2F2;
+
+}
+#number,#minus,#plus:hover{
+  text-decoration: none;
+  opacity: 0.9;
+}
+#cart{
+  padding: 10px;
+  color:white;
+  background-color: #5882FA;
+  border-radius: 8%;
+}
+#tabs{
+  padding-top: 50px;
+
+}
+#tab-content{
+  background-color: #ff5c33;
+}
+#container-tabs{
+
+}
+#description,#specifications,#reviews{
+  background-color: #ff5c33;
+}
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    color: #ff5c33;
+    box-shadow:  0px -4px 1px 0px rgba(245,78,17,1);
+}
+.nav-tabs.nav-justified > li > a {
+    color: #ff5c33;
+}
+.nav-tabs.nav-justified > li {
+
+}
