@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Hi Summer Intership</title>
+  <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="cart.css">
+  <script src="../assets/jquery.js"></script>
+  <script src="../assets/bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body id = "top">
+
+  <section>
+    <header id="header">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-target="#myNavbar" data-toggle="collapse"
+              class="btn btn-default btn-lg navbar-toggle">
+              <span class ="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            </button>
+            <a id="qshop" href="../index.html" class="navbar-brand">QShop</a>
+          </div>
+          <div id="myNavbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../products/products.html">Shop</a></li>
+              <li><a href="../about/about.html">About</a></li>
+              <li><a href="../contact/contact.html">Contact</a></li>
+              <li><a href="../login/login.html">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </section>
+
+  <section id="banner">
+    <div>
+      <h2 align="center">Shopping Cart</h2>
+    </div>
+  </section>
+
+  <section id="section1">
+    <div class="row" align="left">
+      <div class="col-md-12 col-sm-12">
+        <table class="table table-responsive shopping-table" >
+         <thead>
+           <th></th>
+           <th>Product</th>
+           <th>Price</th>
+           <th>Quantity</th>
+           <th>Total</th>
+         </thead>
+         <tbody>
+         <tr>
+           <td><img src="../assets/products/product-1.jpg"></td>
+           <td>Photo</td>
+           <td>$150</td>
+           <td><div class="col-sm-6 col-md-6" id="buttons" data-role="controlgroup" data-type="horizontal">
+             <a id="minus" data-role="button">-</a>
+             <a id="number" data-role="button">1</a>
+             <a id="plus" data-role="button">+</a>
+           </div>
+           </td>
+           <td>$150</td>
+         </tr>
+         <tr>
+           <td><img src="../assets/products/product-3.jpg"></td>
+           <td>Painting</td>
+           <td>$250</td>
+           <td><div class="col-sm-6 col-md-6" id="buttons" data-role="controlgroup" data-type="horizontal">
+             <a id="minus" data-role="button">-</a>
+             <a id="number" data-role="button">2</a>
+             <a id="plus" data-role="button">+</a>
+           </div>
+           </td>
+           <td>$250</td>
+         </tr>
+         <tr>
+           <td><img src="../assets/products/product-9.jpg"></td>
+           <td>Illustration</td>
+           <td>$260</td>
+           <td><div class="col-sm-6 col-md-6" id="buttons" data-role="controlgroup" data-type="horizontal">
+             <a id="minus" data-role="button">-</a>
+             <a id="number" data-role="button">1</a>
+             <a id="plus" data-role="button">+</a>
+           </div>
+           </td>
+           <td>$260</td>
+         </tr>
+        </tbody>
+        </table>
+        <button id="update" class="btn btn-default" type="submit">Update Cart</button>
+      </div>
+    </div>
+    <div class="row" align="left">
+      <div class="col-md-6 col-sm-6">
+        <form id="container">
+          <h3>Calculate shipping</h3>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <input type="text" class="form-control" id="country" placeholder="Romania">
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Bucharest">
+          </div>
+          <div class="form-group">
+            <label for="zipcode">Zip Code</label>
+            <input type="text" class="form-control" id="zipcode" placeholder="012345">
+          </div>
+        </form>
+        <button id="update" class="btn btn-default" type="submit">Update Totals</button>
+      </div>
+
+    <div class="col-md-6 col-sm-6">
+      <h3>Cart Total</h3>
+        <table class="table table-responsive">
+          <tbody>
+            <tr>
+              <td>Card Subtotal</td>
+              <td>$650</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>Order Total</td>
+              <td id="money">$650</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+
+  </div>
+</section>
+
+
+</body>
+</html>

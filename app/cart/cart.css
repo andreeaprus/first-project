@@ -1,0 +1,71 @@
+#banner{
+  padding-top: 60px;
+  background-color: #58ACFA;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+}
+nav{
+  text-align: right;
+  opacity: 0.8;
+}
+#qshop{
+  float:left;
+}
+#top{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding:0px;
+  padding-top: 0px;
+  color: black;
+}
+img{
+  width:50px;
+  height:50px;
+  margin:1px;
+}
+#shopping-table{
+  vertical-align: middle;
+}
+#section1{
+  padding:50px;
+  margin:0px;
+}
+#buttons{
+  padding-top: 0px;
+}
+#minus,#plus{
+  background-color: #ff5c33;
+  color:white;
+  padding:5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 7%;
+}
+#number{
+  color:black;
+  padding:5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:0px;
+  background-color: #F2F2F2;
+
+}
+#number,#minus,#plus:hover{
+  text-decoration: none;
+  opacity: 0.9;
+}
+#update{
+  background-color: #ff5c33;
+  color:white;
+  float:right;
+  font-weight: bold;
+}
+#money{
+  color:#ff5c33;
+  font-size: 20px;
+  font-weight: bold;
+}

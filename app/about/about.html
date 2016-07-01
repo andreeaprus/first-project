@@ -1,22 +1,58 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title> Hi Summer Intership</title>
-    <link rel="stylesheet" type="text/css" href="about.css"></link>
-  </head>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title> Hi Summer Intership</title>
+      <link rel="stylesheet" type="text/css" href="about.css"></link>
+      <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
+      <script src="../assets/jquery.js"></script>
+      <script src="../assets/bootstrap/js/bootstrap.js"></script>
+    </head>
 
-  <body id = "top">
-    <section>
-      <header id="header">
-        <nav>
-          <h1><a id="qshop" href="../index.html">QShop</a></h1>
-          <a href="../contact/contact.html"> Contact </a>
-          <a href="../register/register.html"> Register </a>
-          <a href="../login/login.html"> Login </a>
-        </nav>
-      </header>
-    </section>
+    <body id = "top">
+      <section>
+        <header id="header">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" data-target="#myNavbar" data-toggle="collapse"
+                  class="btn btn-default btn-lg navbar-toggle">
+                  <span class ="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+                <a id="qshop" href="../index.html" class="navbar-brand">QShop</a>
+              </div>
+              <div id="myNavbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://github.com"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li><a href="../about/about.html">About</a></li>
+                  <li><a href="../contact/contact.html">Contact</a></li>
+                  <li><a href="../login/login.html">Login</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </section>
 
-  </body>
+      <section>
+        <div id="aboutd" class="row" align="left">
+          <div class="col-md-6">
+           <img id="imag" src="http://www.csie.ase.ro/Media/Default/docs/practica/2014/logo/qualitance.png">
+         </div>
+          <div class="col-md-6">
+            <p id="aboutus" align="justify">
+              At Qualitance we help Fortune 500 companies and dynamic startups innovate.
+              We build scalable software and hardware products that bring to life amazing
+              user experiences and harness the power of cutting-edge technologies. We live for
+              enabling web and mobile apps with technologies like machine learning, IoT, VR, AR.
+              We run innovation projects to create breakthrough ideas and solutions for our clients'
+              toughest challenges. We bring together your team with world's top thought leaders and
+              our build team and provide the rapid prototyping and design thinking framework.
+            </p>
+          </div>
+          </div>
+        </section>
 
-  </html>
+      </body>
+
+    </html>

@@ -1,10 +1,5 @@
-#top{
-  margin: 0px;
-  padding:0px;
-  padding-top: 0px;
-}
 header{
-  background-color: black;
+  background-color: inherit;
   height: 60px;
   text-align: right;
   position: fixed;
@@ -12,6 +7,7 @@ header{
 }
 nav{
   text-align: right;
+  opacity: 0.7;
 }
 #top{
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -20,21 +16,20 @@ nav{
   margin: 0px;
   padding:0px;
   padding-top: 0px;
+  background-color: #3EA99F;
 }
 a:visited{
   color:white;
   text-decoration: none;
 }
-
 a{
-
   color:white;
   text-decoration: none;
 }
 #form{
-  background-color: #3EA99F;
   color: white;
-  padding: 160px;
+  padding-top: 160px;
+  padding-left,padding-right: 60px;
   width:auto;
 }
 #container{
@@ -61,4 +56,5 @@ input[type=submit]{
   border-radius: 5px;
   color: white;
   float:right;
+
 }

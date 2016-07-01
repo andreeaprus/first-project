@@ -1,10 +1,4 @@
-#top{
-  margin: 0px;
-  padding:0px;
-  padding-top: 0px;
-}
 header{
-  background-color: black;
   height: 60px;
   text-align: right;
   position: fixed;
@@ -20,12 +14,12 @@ nav{
   margin: 0px;
   padding:0px;
   padding-top: 0px;
+  background-color:white;
 }
 a:visited{
   color:white;
   text-decoration: none;
 }
-
 a{
   color:white;
   text-decoration: none;
@@ -34,4 +28,20 @@ a{
 }
 h1{
   float:left;
+}
+#aboutd{
+  padding:10%
+}
+#imag{
+  float:left;
+  margin:10%;
+  border: 2px solid grey;
+  border-radius: 5px;
+
+}
+#aboutus{
+  border-radius: 5px;
+  border-color: grey;
+
+  padding:5%;
 }
